@@ -1,0 +1,42 @@
+fileFormatVersion: 2
+guid: effd07b334b0047c08eedecb906a32c5
+labels:
+- Order
+- Reorder
+- Reordering
+- Sort
+- Sorting
+- Component
+- Components
+- Inspector
+- Utility
+- Drag-and-drop
+- Drag
+- Drop
+- Editor
+- Hotkey
+- GameObject
+- Simple
+- GameFlow
+timeCreated: 1434629110
+licenseType: Store
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder: {}
+  isPreloaded: 0
+  platformData:
+    Any:
+      enabled: 1
+      settings: {}
+    Editor:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+    WindowsStoreApps:
+      enabled: 0
+      settings:
+        CPU: AnyCPU
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

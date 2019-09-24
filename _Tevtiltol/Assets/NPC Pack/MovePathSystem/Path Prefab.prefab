@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011513883800}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011513883800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012059070636}
+  - 114: {fileID: 114000013810738652}
+  m_Layer: 0
+  m_Name: Path Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012059070636
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011513883800}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6772437, y: 1.134835, z: -0.11289644}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000013810738652
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011513883800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83ac981e3a5ded44f9ff9bdb19a74815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myPathMaster: {fileID: 0}
+  points: []
+  pointPrefab: {fileID: 1000012371845754, guid: 85fcd01f35f9ea74db5e7527342d0158,
+    type: 2}
+  pathColor:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  startColor:
+    r: 0
+    g: 1
+    b: 0
+    a: 1
+  midColor:
+    r: 1
+    g: 0
+    b: 0
+    a: 1
+  endColor:
+    r: 1
+    g: 0
+    b: 1
+    a: 1
+  startSize: 0.4
+  midSize: 0.2
+  endSize: 0.4
+  callWhenBegin:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: 506174684d61737465722b4d794576656e74547970652c20417373656d626c792d4353686172702c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c
+  callWhenDone:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: 506174684d61737465722b4d794576656e74547970652c20417373656d626c792d4353686172702c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c
